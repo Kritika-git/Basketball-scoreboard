@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BasketBall ScoreKeeper</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+   
+    <div class="container">
+         <h1>Basketball Scoreboard</h1>
+      <div class="scoreboard">
+        <div class="team" id="home">
+          <div class="score" id="home-score">0</div>
+          <h3>HOME</h3>
+          <div class="button-group">
+            <button onclick="addOneHome()">+1</button>
+          <button onclick="addTwoHome()">+2</button>
+          <button onclick="addThreeHome()">+3</button>
+          </div>
+          
+        </div>
+        <div class="team" id="guest">
+          <div class="score" id="guest-score">0</div>
+          <h3>GUEST</h3>
+          <div class="button-group">
+          <button onclick="addOneGuest()">+1</button>
+          <button onclick="addTwoGuest()">+2</button>
+          <button onclick="addThreeGuest()">+3</button>
+          </div>
+          </div>
+          
+        </div>
+      
+      <div class="result">
+        <div class="button-group">
+            <button id="result-btn" onclick="displayResult()">End Game</button>
+            <button id="restart-btn" onclick="restartGame()">Restart</button>
+        </div>
+        
+        <h2 id="winning-team"></h2>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
