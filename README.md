@@ -1,6 +1,6 @@
 # Basketball Score Counter
 
-Live Website link: 
+Live Website link: [https://kritika-git.github.io/Basketball-scoreboard/](https://kritika-git.github.io/Basketball-scoreboard/)
 
 ## Overview
 
@@ -11,7 +11,6 @@ You can increment their scores by 1, 2, or 3 points with dedicated buttons.
 
 There is also an **End Game** button that displays the winner, and a **Restart** button to reset scores and start fresh.
 
----
 
 ## Features
 
@@ -21,7 +20,7 @@ There is also an **End Game** button that displays the winner, and a **Restart**
 - Restart button to reset scores and clear the result.
 - Clean and simple UI for easy score tracking.
 
----
+
 
 ## How It Works
 
@@ -29,7 +28,7 @@ There is also an **End Game** button that displays the winner, and a **Restart**
 - Pressing **End Game** compares the scores and displays the winning team or a draw message.
 - The **Restart** button resets both scores to zero and clears the winner message.
 
----
+
 
 ## Technologies Used
 
